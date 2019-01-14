@@ -1,0 +1,86 @@
+import { NgModule } from '@angular/core';
+import { 
+  MatButtonModule, 
+  MatCheckboxModule, 
+  MatToolbarModule, 
+  MatChipsModule, 
+  MatOptionModule, 
+  MatGridListModule, 
+  MatProgressBarModule, 
+  MatSliderModule, 
+  MatSlideToggleModule, 
+  MatMenuModule, 
+  MatDialogModule, 
+  MatSnackBarModule, 
+  MatSelectModule, 
+  MatInputModule, 
+  MatSidenavModule, 
+  MatCardModule, 
+  MatIconModule, 
+  MatRadioModule, 
+  MatProgressSpinnerModule, 
+  MatTabsModule,
+  MatListModule 
+} from '@angular/material';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule } from '@angular/material/paginator';
+
+@NgModule({
+  imports: [
+    MatPaginatorModule, 
+    MatTableModule,
+    MatSortModule,  
+    MatFormFieldModule, 
+    MatButtonModule, 
+    MatCheckboxModule, 
+    MatToolbarModule, 
+    MatChipsModule, 
+    MatOptionModule, 
+    MatGridListModule, 
+    MatProgressBarModule, 
+    MatSliderModule, 
+    MatSlideToggleModule, 
+    MatMenuModule, 
+    MatDialogModule, 
+    MatSnackBarModule, 
+    MatSelectModule, 
+    MatInputModule, 
+    MatSidenavModule, 
+    MatCardModule, 
+    MatIconModule, 
+    MatRadioModule, 
+    MatProgressSpinnerModule, 
+    MatTabsModule,
+    MatListModule
+  ],
+  exports: [
+    MatPaginatorModule, 
+    MatTableModule, 
+    MatSortModule,  
+    MatFormFieldModule, 
+    MatButtonModule, 
+    MatCheckboxModule, 
+    MatToolbarModule, 
+    MatChipsModule, 
+    MatOptionModule, 
+    MatGridListModule, 
+    MatProgressBarModule, 
+    MatSliderModule, 
+    MatSlideToggleModule, 
+    MatMenuModule, 
+    MatDialogModule, 
+    MatSnackBarModule, 
+    MatSelectModule, 
+    MatInputModule, 
+    MatSidenavModule, 
+    MatCardModule, 
+    MatIconModule, 
+    MatRadioModule, 
+    MatProgressSpinnerModule, 
+    MatTabsModule, 
+    MatListModule
+  ],
+})
+export class AppMaterialModule { }
